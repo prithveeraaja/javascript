@@ -26,6 +26,6 @@ let isLoggedIn = false
 
 console.log(typeof"Prithvi");   // string
 console.log(typeof null);       //**********object*************
-console.log(typeof undefined);  // --undefined------
+console.log(typeof undefined);  // ----undefined------
 
 
