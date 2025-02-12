@@ -52,3 +52,36 @@ BigInt = bigint
 
 */
 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(non primitive)
+
+let myYtname = "Prithvithiraj" // goes into stack
+
+let anothername = myYtname 
+anothername = "chaiaurcode"
+
+// it will provide copy of the value
+
+console.log(myYtname); // chaiaurcode
+console.log(anothername); // prithviraj
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Prithvi@google.com"
+
+// it will provide referance of object make changes in both original and new objects values
+
+console.log(userOne.email);  //Prithvi@google.com
+console.log(userTwo.email0); //Prithvi@google.com
+
+
+
+
+
