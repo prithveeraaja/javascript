@@ -30,4 +30,37 @@ console.log(stringNumber);
 console.log(typeof stringNumber);
 
 
+
+
+// *************** Operations ***********************
+
+let value =3 
+let negValue = -value
+
+console.log(negValue);
+
+// 2**3 => 2 to the power of 3
+
+let str1 = "hello"
+let str2 = " Prithvi"
+
+let str3 = str1 + str2
+console.log(str3);
+
+// if first value is string then other all value takes as a string 
+
+console.log("1" + 2);      // 12
+console.log(1 + "2");      //12
+console.log("1" + 2 + 2);  //122
+
+//**** if it is not string then it takes as a number
+console.log(1 + 2 + "2");  //32
+
+
+
+
+
+
+
+
  
