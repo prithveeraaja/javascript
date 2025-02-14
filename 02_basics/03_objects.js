@@ -22,20 +22,26 @@ console.log(JsUser["email"])
 
 console.log(JsUser["full name"]); // we cannot access by dot operator
 
-console.log(JsUser[mySym]);
+console.log(JsUser[mySym]);  //  for symbol
 
-JsUser.email = "prithvi@.com"
-Object.freeze(JsUser) // we can lock the object
+// JsUser.email = "prithvi@.com"
+// Object.freeze(JsUser) // we can lock the object
 
-JsUser.email = "xxx@.com"
+// JsUser.email = "xxx@.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Hello js user");
     
 }
+JsUser.greetingTwo = function(){
+    console.log(`Hello js user, ${this.name}`);
+    
+}
 
-console.log(JsUser.greeting()); // undefined
+console.log(JsUser.greeting()); // Hello js user
+console.log(JsUser.greetingTwo()); //Hello js user, Hitesh
+
 
 
 
