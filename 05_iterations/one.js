@@ -8,3 +8,4 @@ for (let index = 0; index <=10; index++) {
 
 //console.log(element); // Not accsseable
 
+// break and continue
